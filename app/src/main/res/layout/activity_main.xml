@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        />
+
+    <EditText
+        android:id="@+id/editTextFruit"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your fruit name"
+        android:paddingStart="10dp"
+        android:background="@color/ghost_white"
+        />
+
+    <TextView
+        android:id="@+id/textCheckFruitName"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:gravity="center"
+        android:textColor="@color/dark_goldenrod"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/editTextFruitCount"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your initial fruit count"
+        android:paddingStart="10dp"
+        android:background="@color/orange"
+        />
+
+    <TextView
+        android:id="@+id/textShowCount"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show me the initial count"
+        android:gravity="center"
+        android:inputType="number"
+        android:textColor="@color/green"
+        android:textSize="20sp"
+        />
+
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:id="@+id/textViewCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="150sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        />
+
+    <Button
+        android:id="@+id/buttonPlus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+"
+        android:textSize="34sp"
+        android:layout_margin="10dp"
+        android:background="@color/royal_blue"
+        android:textColor="@color/white"
+        />
+
+
+
+
+
+
+
+</LinearLayout>
+    </ScrollView>
